@@ -1,0 +1,29 @@
+.conteudo {
+    height: 550px;
+    width: 100%;
+    background: #DCDCDC;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+.rodape {
+    height: 50px;
+    width: 100%;
+    background: #363636;
+    margin-top: 5px;
+    color:white;
+}
+
+.cabecalho {
+    background: #363636;
+    color: white;
+    height: 50px;
+    width: 100%;
+}
+
+.decks {
+    height: 50px;
+    width: 100%;
+    background: white;
+    
+}

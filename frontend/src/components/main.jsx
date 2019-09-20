@@ -1,9 +1,10 @@
+import './style.css'
 import React from 'react'
-import './main.css'
-
+import DeckList from './deckList'
 export default props => (
     
-    <div className="janela">
-        <h1>Main</h1>
+    <div className="conteudo">
+      <DeckList />
+      <button>Criate new deck</button>
     </div>
 )
