@@ -1,0 +1,33 @@
+#page {
+    display: grid;
+    min-height: 100vh;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-areas: 'cabecalho' 'conteudo' 'rodape';
+      
+}
+
+#page > header { 
+    grid-area: cabecalho;
+    background: #363636;
+    color: white;
+}
+
+#page > main {
+    grid-area: conteudo;
+    background: gray;
+}
+
+#page > footer {
+    grid-area: rodape;
+    background: #363636;
+    color: white;
+}
+
+.decks {
+    background: white;
+    margin-top: 20px;
+    height: 8vh;
+
+}

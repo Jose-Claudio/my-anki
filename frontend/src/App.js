@@ -1,5 +1,6 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/font-awesome/css/font-awesome.min.css'
+import './anki.css'
 
 import React from 'react'
 import Header from './components/header'
@@ -8,10 +9,18 @@ import Footer from './components/footer'
 
 function App() {
   return (
-    <div className="container">
-      <Header />
-      <Main />
-      <Footer />
+    <div id="page"> 
+      <header>
+          <Header />
+      </header>
+      <main>
+        <div className="container">
+          <Main />
+        </div>  
+      </main>
+      <footer>
+          <Footer />
+      </footer>
     </div>
   )
 }
