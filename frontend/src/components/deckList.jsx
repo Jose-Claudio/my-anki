@@ -1,21 +1,15 @@
 import React from 'react'
 
 export default props => {
-    return (
-        <div className="decks">
-            <table className="Table">
-                <tbody>
-                    <tr>
-                        <td>Usuário</td>
-                        <td>Deck</td>
-                        <td>
-                            <button>Add</button>
-                            <button>Review</button>
-                            <button>Delete</button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+    
+    return (  
+        <div className="decks">  
+            <span>Usuario</span> | <span>Deck</span>
+            <div className="botao">                       
+                <button className="btn btn-primary">Add</button>
+                <button className="btn btn-success">Review</button>                      
+                <button className="btn btn-danger">Delete</button>
+            </div>
+        </div>       
     )
 }
