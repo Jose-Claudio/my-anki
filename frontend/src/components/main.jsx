@@ -5,7 +5,7 @@ import AddDeck from './addDeck'
 export default props => (
     
     <div className="conteudo">
-      <h3>Add New Deck</h3>
+      <h3>Add New Decks</h3>
       <AddDeck />
       <h3>Decks</h3>
       <DeckList />

@@ -13,6 +13,9 @@ function App() {
       <header>
           <Header />
       </header>
+      <nav>
+        
+      </nav>
       <main>
         <div className="container">
           <Main />
