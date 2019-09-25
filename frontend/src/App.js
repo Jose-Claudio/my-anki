@@ -4,8 +4,9 @@ import './anki.css'
 
 import React from 'react'
 import Header from './components/header'
-import Main from './components/main'
 import Footer from './components/footer'
+import Menu from './components/menu'
+import Routes from './components/routes'
 
 function App() {
   return (
@@ -14,16 +15,17 @@ function App() {
           <Header />
       </header>
       <nav>
-        
+        <Menu />
       </nav>
       <main>
         <div className="container">
-          <Main />
+        <Routes />
         </div>  
       </main>
       <footer>
           <Footer />
       </footer>
+      
     </div>
   )
 }
