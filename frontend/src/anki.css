@@ -48,10 +48,10 @@ nav > a:hover {
 
 .decks {
     background: #FFFAFA;
-    margin-top: 20px;
+    margin-top: 1%;
     height: 8vh;  
     width: 80%; 
-    padding: 2px; 
+    padding: 1%; 
 }
 
 .decksAdd {
@@ -67,13 +67,21 @@ nav > a:hover {
     margin-bottom: 2px;
 }
 
+.review {
+    margin-top: 4%; 
+    margin-bottom: 1%;
+    height: 20vh;
+    width: 80%;
+    background: #FFFAFA;
+    text-align: center;
+}
 .botao {
     float: right;
 
 }
 
-.btn {
-    margin: 5px;
-
+.btRev > button {
+    margin-right: 1%;
 }
+
 
