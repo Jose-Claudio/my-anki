@@ -12,8 +12,8 @@ export default props => (
 
         <div className="btRev">
             <button className="btn btn-success">Review</button>
-            <button className="btn btn-success">Next</button>
-            <button className="btn btn-danger">Delete</button>
+            <button className="btn btn-success"><i className="fa fa-arrow-right"></i></button>
+            <button className="btn btn-danger"><i className="fa fa-trash"></i></button>
         </div>
     </div>
 

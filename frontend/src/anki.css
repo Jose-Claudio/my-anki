@@ -30,8 +30,9 @@
 
 nav > a {
     color: white;
-    margin-bottom: 1px;
+    margin-top: 2px;
     background: #363636;
+    border-radius: 5px;
 }
 
 nav > a:hover {
@@ -49,9 +50,11 @@ nav > a:hover {
 .decks {
     background: #FFFAFA;
     margin-top: 1%;
-    height: 8vh;  
+    height: 10vh;  
     width: 80%; 
     padding: 1%; 
+    border-radius: 5px;
+    box-shadow: 5px 6px #D3D3D3
 }
 
 .decksAdd {
@@ -59,12 +62,9 @@ nav > a:hover {
     margin-top: 20px;
     height: 26vh;  
     width: 80%;   
-    padding: 5px;
-}
-.decksAdd > div {
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-bottom: 2px;
+    padding: 1%;
+    border-radius: 5px;
+    box-shadow: 5px 6px #D3D3D3;
 }
 
 .review {
@@ -73,7 +73,9 @@ nav > a:hover {
     height: 20vh;
     width: 80%;
     background: #FFFAFA;
-    text-align: center;
+    text-align: center; 
+    border-radius: 5px;  
+    box-shadow: 5px 6px #D3D3D3;
 }
 .botao {
     float: right;

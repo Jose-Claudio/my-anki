@@ -6,7 +6,7 @@ export default props => {
         <div className="decks">  
             <span>Usuario</span> | <span>Deck</span>
             <div className="botao">                                        
-                <button className="btn btn-danger">Delete</button>
+                <button className="btn btn-danger"><i className="fa fa-trash"></i></button>
             </div>
         </div>       
     )

@@ -10,7 +10,7 @@ export default props => (
             <div className="form-group">
                 <input type="text" className="form-control" placeholder="Enter Deck name" />
             </div>
-            <button className="btn btn-info">Criate Deck</button>
+            <button className="btn btn-info"><i className="fa fa-plus-square"></i></button>
         </from>       
     </div>
 )
