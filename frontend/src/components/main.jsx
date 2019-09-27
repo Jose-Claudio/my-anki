@@ -1,13 +1,16 @@
 import React from 'react'
+
 import DeckList from './deckList'
 import AddDeck from './addDeck'
 
-export default props => (
+export default function Main(){
     
+  return(
     <div className="conteudo">
-      <h3>Add New Decks</h3>
+      <h4>Add New Decks</h4>
       <AddDeck />
-      <h3>Decks</h3>
-      <DeckList />
+      <h4>Decks</h4>
+      <DeckList/>
     </div>
-)
+  )
+}

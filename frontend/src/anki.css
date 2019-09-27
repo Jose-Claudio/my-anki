@@ -15,17 +15,23 @@
     background: #363636;
     color: white;
     text-align: center; 
+    width: auto;
+    height: 10vh;
 }
 
 #page > main {
     grid-area: conteudo;
-    background: gray;
+    background: rgb(131, 128, 128);
     color: black;
+    width: auto;
+   
 }
 
 #page > nav {
     grid-area: navegacao;
     background: gray;
+    width: auto;
+    
 }
 
 nav > a {
@@ -45,26 +51,29 @@ nav > a:hover {
     background: #363636;
     color: white;
     text-align: center;
+    width: auto;
+    height: 10vh;
 }
 
-.decks {
+.table {
     background: #FFFAFA;
     margin-top: 1%;
-    height: 10vh;  
-    width: 80%; 
+    height: auto;  
+    width: 100%; 
     padding: 1%; 
+    margin: 0 auto;
     border-radius: 5px;
-    box-shadow: 5px 6px #D3D3D3
 }
 
 .decksAdd {
     background: #FFFAFA;
-    margin-top: 20px;
+    margin-top: 1%;
+    margin-bottom: 1%;
     height: 26vh;  
-    width: 80%;   
+    width: auto;   
     padding: 1%;
     border-radius: 5px;
-    box-shadow: 5px 6px #D3D3D3;
+    margin: 0 auto;
 }
 
 .review {
@@ -79,11 +88,11 @@ nav > a:hover {
 }
 .botao {
     float: right;
+    margin: 1%;
 
 }
 
 .btRev > button {
     margin-right: 1%;
 }
-
 
