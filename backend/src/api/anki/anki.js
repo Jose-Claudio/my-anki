@@ -9,7 +9,6 @@ const cardSchema = new mongoose.Schema({
 })
 
 const deckSchema = new mongoose.Schema({
-    userName: { type: String, required: true },
     deckName: { type: String, required: true },
     cards: [cardSchema] 
 })
